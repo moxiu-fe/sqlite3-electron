@@ -2,7 +2,9 @@
 
 安装
 ```
-npm install sqlite3-electron --build-from-source --sqlite_libname=sqlcipher --sqlite=`brew --prefix` --runtime=electron --target=你的electron版本号 --dist-url=https://atom.io/download/electron
+npm install sqlite3-electron 
+cd ./node_modules/sqlite3-electron
+HOME=~/.electron-gyp node-gyp rebuild --target=your-electron-version --arch=x64 --dist-url=https://electronjs.org/headers
 ```
 
 文档同[node-sqlite3](https://github.com/mapbox/node-sqlite3)
