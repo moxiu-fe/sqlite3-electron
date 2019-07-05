@@ -1,7 +1,7 @@
 {
   "name": "sqlite3-electron",
   "description": "Asynchronous, non-blocking SQLite3 bindings for electron",
-  "version": "4.1.0",
+  "version": "4.0.9",
   "homepage": "http://github.com/mapbox/node-sqlite3",
   "author": {
     "name": "moxiu-fe"
